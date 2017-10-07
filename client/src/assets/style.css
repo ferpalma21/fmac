@@ -1,0 +1,109 @@
+body{
+  background-color: #ffffff;
+}
+#fmac-nombre{
+  margin: 1px
+}
+/*navigation bar*/
+.navbar {
+  background-color: #000000;
+  color: white;
+  align-items: baseline;
+  float: left;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+#logo{
+  position: relative;
+  left: 50%
+}
+#name{
+  position: absolute;
+  right: 8px
+}
+#top-logo{
+  width: 10%;
+}
+.col-div-top-nav{
+  width: calc(100%/6);
+  float: left;
+
+}
+.top-nav-links{
+  position: sticky;
+  width: 160px;
+  height: 50px;
+  top: 100px;
+}
+a:link, a:visited {
+    background-color: #black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #56494E;
+    color: #ffffff;
+    border-radius: 10%;
+}
+
+/*body*/
+
+.col-div-info-left{
+  width: calc(100%/2);
+  float: left;
+  border-color: #BB4430;
+  border-radius: 8%;
+  margin: 20px;
+  padding: 10px;
+  width: 200px;
+  border-style: double;
+  float: left;
+  position: relative;
+}
+
+
+/*Img*/
+#main-img{
+  text-align: center;
+  height: 650px;;
+  width: 100%;
+  opacity: .5;
+  filter: blur(80);
+  filter: contrast(2);
+  background-image: url('./carso.jpg');
+  float: left;
+}
+#text{
+  font-size: 5em;
+  position: relative;
+  top: 200px;
+  opacity: 1;
+  color: #000
+}
+
+/*nosotros*/
+.us{
+  border-color: #BB4430;
+  border-radius: 4%;
+  border-style: double;
+  float: left;
+  width: 44%;
+  margin: 10px;
+  margin-top: 20px;
+
+}
+#services{
+  bottom:  900px;
+  float: right;
+}
+
+b{
+  color: #2B2C28;
+  font-size: 18px;
+
+}
