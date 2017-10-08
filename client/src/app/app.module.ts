@@ -8,7 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { RouterModule, Routes } from '@angular/router';
 
 import { routes } from './app.routes';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component'
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component'
     HeaderComponent,
     UsComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
