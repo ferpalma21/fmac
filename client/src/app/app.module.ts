@@ -9,7 +9,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { routes } from './app.routes';
 import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { ServicesComponent } from './services/services.component'
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component'
     UsComponent,
     ContactComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
